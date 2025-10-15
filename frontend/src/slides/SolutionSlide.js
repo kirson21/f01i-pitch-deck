@@ -11,7 +11,7 @@ const SolutionSlide = ({ slideNumber, totalSlides }) => {
     {
       icon: '📊',
       title: 'Smart Feed',
-      description: 'Real-time AI market analysis with actionable score ratings'
+      description: 'Real-time AI market analysis with GPT-powered actionable score ratings'
     },
     {
       icon: '🛡️',
