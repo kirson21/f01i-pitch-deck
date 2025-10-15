@@ -129,10 +129,20 @@ const AskSlide = ({ slideNumber, totalSlides }) => {
             </h3>
             <div className="space-y-4">
               <p className="text-xl text-gray-300">Kirill Popolitov - Founder, CEO & CTO</p>
-              <p className="text-lg text-gray-400">📧 Email: kirson21@gmail.com</p>
+              <p className="text-lg text-gray-400">📧 Email: kirillpopolitov@gmail.com</p>
+              <p className="text-lg text-gray-400">💬 Telegram: @kirson21</p>
+              <p className="text-lg text-gray-400">📱 WhatsApp: +381665830305</p>
               <p className="text-lg text-gray-400">🌐 Website: f01i.ai</p>
-              <div className="mt-8 inline-block px-8 py-4 bg-primary hover:bg-secondary text-white rounded-2xl font-bold text-xl transition-all glow cursor-pointer">
-                Let's Build the Future Together
+              <div className="mt-8 flex flex-wrap gap-4 justify-center">
+                <a href="mailto:kirillpopolitov@gmail.com" className="inline-block px-8 py-4 bg-primary hover:bg-secondary text-white rounded-2xl font-bold text-xl transition-all glow">
+                  📧 Email
+                </a>
+                <a href="https://t.me/kirson21" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-primary hover:bg-secondary text-white rounded-2xl font-bold text-xl transition-all glow">
+                  💬 Telegram
+                </a>
+                <a href="https://wa.me/381665830305" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-primary hover:bg-secondary text-white rounded-2xl font-bold text-xl transition-all glow">
+                  📱 WhatsApp
+                </a>
               </div>
             </div>
           </motion.div>
