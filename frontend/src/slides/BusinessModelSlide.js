@@ -14,21 +14,21 @@ const BusinessModelSlide = ({ slideNumber, totalSlides }) => {
       icon: '🏪',
       title: 'Marketplace Commission',
       description: 'Revenue share from bot sales',
-      revenue: '15-20% commission',
+      revenue: '10-15% commission',
       color: 'secondary'
     },
     {
       icon: '🎯',
-      title: 'Performance Fees',
-      description: 'Success-based pricing on profitable trades',
-      revenue: '5-10% of profits',
+      title: 'Trading Commission',
+      description: 'Performance fees from bot trading',
+      revenue: '10-15% of profits',
       color: 'primary'
     },
     {
       icon: '🤝',
-      title: 'Enterprise Solutions',
-      description: 'Custom white-label solutions for institutions',
-      revenue: 'Custom pricing',
+      title: 'API Broker Commissions',
+      description: 'Revenue from exchange trading volumes',
+      revenue: 'Volume-based',
       color: 'secondary'
     }
   ];
