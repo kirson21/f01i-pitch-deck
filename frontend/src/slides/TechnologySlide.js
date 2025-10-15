@@ -119,7 +119,7 @@ const TechnologySlide = ({ slideNumber, totalSlides }) => {
           viewport={{ once: true }}
           className="mt-12 flex flex-wrap justify-center gap-4"
         >
-          {['React', 'FastAPI', 'MongoDB', 'Redis', 'Docker', 'AWS', 'WebSocket', 'TensorFlow'].map((tech, index) => (
+          {['React', 'FastAPI', 'Supabase', 'Vault', 'Docker', 'AWS', 'WebSocket', 'Python'].map((tech, index) => (
             <div key={index} className="px-6 py-3 bg-dark-light border border-gray-800 rounded-full text-gray-300 hover:border-primary transition-all">
               {tech}
             </div>
