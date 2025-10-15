@@ -52,7 +52,7 @@ const TeamSlide = ({ slideNumber, totalSlides }) => {
                   </div>
                   <div className="flex items-center space-x-3 justify-center md:justify-start">
                     <span className="text-secondary">💼</span>
-                    <p>Ex Digital Marketer (5 years) - Monitask.com, ServiceInspector.ru</p>
+                    <p>Ex Digital Marketer Lead (5 years) - Monitask.com, ServiceInspector.ru</p>
                   </div>
                   <div className="flex items-center space-x-3 justify-center md:justify-start">
                     <span className="text-primary">🚀</span>
@@ -84,7 +84,7 @@ const TeamSlide = ({ slideNumber, totalSlides }) => {
               <h4 className="text-xl font-bold text-white mb-2">Senior Backend Engineer</h4>
               <p className="text-gray-400 mb-3">Scaling infrastructure & AI integration</p>
               <span className="px-3 py-1 bg-yellow-500/20 text-yellow-400 rounded-full text-xs font-bold">
-                Q1 2025
+                Q4 2025
               </span>
             </div>
 
@@ -93,7 +93,7 @@ const TeamSlide = ({ slideNumber, totalSlides }) => {
               <h4 className="text-xl font-bold text-white mb-2">Security Engineer</h4>
               <p className="text-gray-400 mb-3">Security audit implementation & monitoring</p>
               <span className="px-3 py-1 bg-yellow-500/20 text-yellow-400 rounded-full text-xs font-bold">
-                Q1 2025
+                Q4 2025
               </span>
             </div>
 
@@ -102,7 +102,7 @@ const TeamSlide = ({ slideNumber, totalSlides }) => {
               <h4 className="text-xl font-bold text-white mb-2">Growth Marketer</h4>
               <p className="text-gray-400 mb-3">User acquisition & community building</p>
               <span className="px-3 py-1 bg-primary/20 text-primary rounded-full text-xs font-bold">
-                Q2 2025
+                Q1-Q2 2026
               </span>
             </div>
           </div>
