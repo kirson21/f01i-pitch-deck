@@ -41,7 +41,7 @@ const ProductSlide = ({ slideNumber, totalSlides }) => {
               <div className="flex items-start space-x-4">
                 <div className="text-4xl">📊</div>
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2">AI Smart Feed</h3>
+                  <h3 className="text-xl font-bold text-white mb-2">AI Smart Feed (GPT)</h3>
                   <p className="text-gray-400">Real-time market analysis with AI-powered score ratings for informed decision making.</p>
                 </div>
               </div>
