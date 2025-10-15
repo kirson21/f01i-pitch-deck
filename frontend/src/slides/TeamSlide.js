@@ -52,7 +52,7 @@ const TeamSlide = ({ slideNumber, totalSlides }) => {
                   </div>
                   <div className="flex items-center space-x-3 justify-center md:justify-start">
                     <span className="text-secondary">💼</span>
-                    <p>Ex Digital Marketing Lead (5 years) - Monitask.com, ServiceInspector.ru</p>
+                    <p>Ex Digital Marketer (5 years) - Monitask.com, ServiceInspector.ru</p>
                   </div>
                   <div className="flex items-center space-x-3 justify-center md:justify-start">
                     <span className="text-primary">🚀</span>
