@@ -6,22 +6,22 @@ const GoToMarketSlide = ({ slideNumber, totalSlides }) => {
     {
       phase: 'Phase 1',
       title: 'Community Building',
-      timeframe: 'Q1 2025',
+      timeframe: 'Q4 2025',
       strategies: [
         'Launch in crypto & trading communities',
         'Partner with crypto influencers',
-        'Content marketing (YouTube, TikTok, Twitter)',
-        'Free tier to drive adoption'
+        'Content marketing (YouTube, TikTok, Insta, X)',
+        'SEO/GEO'
       ],
       color: 'primary'
     },
     {
       phase: 'Phase 2',
       title: 'Growth & Scale',
-      timeframe: 'Q2-Q3 2025',
+      timeframe: 'Q1-Q2 2026',
       strategies: [
         'Referral program with incentives',
-        'Marketplace launch with top traders',
+        'Paid Traffic (Google, LinkedIn, Meta)',
         'SEO & paid acquisition campaigns',
         'Strategic partnerships with exchanges'
       ],
@@ -30,7 +30,7 @@ const GoToMarketSlide = ({ slideNumber, totalSlides }) => {
     {
       phase: 'Phase 3',
       title: 'Market Leadership',
-      timeframe: 'Q4 2025+',
+      timeframe: 'Q3-Q4 2026+',
       strategies: [
         'International expansion',
         'Enterprise & white-label solutions',
@@ -101,17 +101,17 @@ const GoToMarketSlide = ({ slideNumber, totalSlides }) => {
             <div className="bg-dark-light p-6 rounded-2xl border border-gray-800 text-center hover:border-primary transition-all">
               <div className="text-4xl mb-3">📱</div>
               <h4 className="text-lg font-bold text-white mb-2">Social Media</h4>
-              <p className="text-sm text-gray-400">Twitter, TikTok, YouTube</p>
+              <p className="text-sm text-gray-400">X, TikTok, Insta, YouTube</p>
             </div>
             <div className="bg-dark-light p-6 rounded-2xl border border-gray-800 text-center hover:border-primary transition-all">
               <div className="text-4xl mb-3">👥</div>
               <h4 className="text-lg font-bold text-white mb-2">Communities</h4>
-              <p className="text-sm text-gray-400">Discord, Telegram, Reddit</p>
+              <p className="text-sm text-gray-400">Discord, Telegram, Reddit, LinkedIn</p>
             </div>
             <div className="bg-dark-light p-6 rounded-2xl border border-gray-800 text-center hover:border-primary transition-all">
               <div className="text-4xl mb-3">🎯</div>
               <h4 className="text-lg font-bold text-white mb-2">Paid Ads</h4>
-              <p className="text-sm text-gray-400">Google, Facebook, Crypto sites</p>
+              <p className="text-sm text-gray-400">Google, Meta, Crypto sites</p>
             </div>
             <div className="bg-dark-light p-6 rounded-2xl border border-gray-800 text-center hover:border-primary transition-all">
               <div className="text-4xl mb-3">🤝</div>
