@@ -29,21 +29,6 @@ const TechnologySlide = ({ slideNumber, totalSlides }) => {
           >
             <h3 className="text-3xl font-bold text-white mb-6">AI Core</h3>
             
-            <div className="bg-gradient-to-br from-primary/20 to-primary/5 p-8 rounded-2xl border border-primary/50">
-              <div className="flex items-center space-x-4 mb-4">
-                <div className="w-16 h-16 bg-primary rounded-xl flex items-center justify-center text-3xl">
-                  🧠
-                </div>
-                <div>
-                  <h4 className="text-2xl font-bold text-white">OpenAI GPT-5</h4>
-                  <p className="text-primary">AI Smart Feed Generation</p>
-                </div>
-              </div>
-              <p className="text-gray-300">
-                Advanced market analysis and real-time insights generation using the latest GPT-5 technology
-              </p>
-            </div>
-
             <div className="bg-gradient-to-br from-secondary/20 to-secondary/5 p-8 rounded-2xl border border-secondary/50">
               <div className="flex items-center space-x-4 mb-4">
                 <div className="w-16 h-16 bg-secondary rounded-xl flex items-center justify-center text-3xl">
@@ -51,11 +36,26 @@ const TechnologySlide = ({ slideNumber, totalSlides }) => {
                 </div>
                 <div>
                   <h4 className="text-2xl font-bold text-white">Anthropic Claude</h4>
-                  <p className="text-secondary">Chat Constructor Core</p>
+                  <p className="text-secondary">AI Chat Constructor Core</p>
                 </div>
               </div>
               <p className="text-gray-300">
-                Conversational AI for intuitive bot building and strategy customization
+                Conversational AI for intuitive bot building and strategy customization via natural language
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-primary/20 to-primary/5 p-8 rounded-2xl border border-primary/50">
+              <div className="flex items-center space-x-4 mb-4">
+                <div className="w-16 h-16 bg-primary rounded-xl flex items-center justify-center text-3xl">
+                  🧠
+                </div>
+                <div>
+                  <h4 className="text-2xl font-bold text-white">OpenAI GPT</h4>
+                  <p className="text-primary">AI Smart Feed & Tech Analysis</p>
+                </div>
+              </div>
+              <p className="text-gray-300">
+                Advanced market analysis and real-time insights generation using GPT technology
               </p>
             </div>
           </motion.div>
