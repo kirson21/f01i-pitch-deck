@@ -67,19 +67,19 @@ const AskSlide = ({ slideNumber, totalSlides }) => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div className="text-center">
                 <div className="w-24 h-24 mx-auto mb-4 bg-gradient-to-br from-primary to-primary/50 rounded-full flex items-center justify-center">
-                  <span className="text-3xl font-bold text-white">40%</span>
+                  <span className="text-3xl font-bold text-white">30%</span>
                 </div>
                 <p className="text-gray-400 font-semibold">Security & Infrastructure</p>
               </div>
               <div className="text-center">
                 <div className="w-24 h-24 mx-auto mb-4 bg-gradient-to-br from-secondary to-secondary/50 rounded-full flex items-center justify-center">
-                  <span className="text-3xl font-bold text-white">30%</span>
+                  <span className="text-3xl font-bold text-white">20%</span>
                 </div>
                 <p className="text-gray-400 font-semibold">Product Development</p>
               </div>
               <div className="text-center">
                 <div className="w-24 h-24 mx-auto mb-4 bg-gradient-to-br from-primary to-primary/50 rounded-full flex items-center justify-center">
-                  <span className="text-3xl font-bold text-white">20%</span>
+                  <span className="text-3xl font-bold text-white">40%</span>
                 </div>
                 <p className="text-gray-400 font-semibold">Marketing & Growth</p>
               </div>
