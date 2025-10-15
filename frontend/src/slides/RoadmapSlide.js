@@ -4,27 +4,27 @@ import { motion } from 'framer-motion';
 const RoadmapSlide = ({ slideNumber, totalSlides }) => {
   const roadmapItems = [
     {
-      quarter: 'Q1 2025',
+      quarter: 'Q4 2025',
       status: 'In Progress',
       items: [
         { title: 'Security Audit & Penetration Testing', completed: false, priority: 'HIGH' },
         { title: 'Vulnerability Assessment & Fixes', completed: false, priority: 'HIGH' },
-        { title: 'Binance Integration', completed: false, priority: 'MEDIUM' },
-        { title: 'Beta User Onboarding (500 users)', completed: false, priority: 'MEDIUM' }
+        { title: 'TradingView Integration', completed: false, priority: 'MEDIUM' },
+        { title: 'Coinglass Integration', completed: false, priority: 'MEDIUM' }
       ]
     },
     {
-      quarter: 'Q2 2025',
+      quarter: 'Q1 2026',
       status: 'Planned',
       items: [
         { title: 'Marketplace Launch with 50+ Verified Bots', completed: false },
-        { title: 'OKX & Crypto.com Integration', completed: false },
+        { title: 'Additional Exchange Integrations', completed: false },
         { title: 'Mobile App (iOS & Android)', completed: false },
         { title: 'Advanced Risk Management Tools', completed: false }
       ]
     },
     {
-      quarter: 'Q3 2025',
+      quarter: 'Q2 2026',
       status: 'Planned',
       items: [
         { title: 'Institutional Features & API', completed: false },
@@ -34,7 +34,7 @@ const RoadmapSlide = ({ slideNumber, totalSlides }) => {
       ]
     },
     {
-      quarter: 'Q4 2025',
+      quarter: 'Q3 2026',
       status: 'Planned',
       items: [
         { title: 'White-label Solution for Enterprises', completed: false },
