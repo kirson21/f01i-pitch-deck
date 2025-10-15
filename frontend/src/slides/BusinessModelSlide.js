@@ -81,8 +81,8 @@ const BusinessModelSlide = ({ slideNumber, totalSlides }) => {
           className="grid grid-cols-1 md:grid-cols-3 gap-6"
         >
           <div className="bg-dark-light p-6 rounded-2xl border border-gray-800 text-center">
-            <h4 className="text-xl font-bold text-white mb-2">Starter</h4>
-            <div className="text-3xl font-bold text-primary mb-4">$9.99<span className="text-sm text-gray-400">/mo</span></div>
+            <h4 className="text-xl font-bold text-white mb-2">Starter (Free)</h4>
+            <div className="text-3xl font-bold text-primary mb-4">$0<span className="text-sm text-gray-400">/mo</span></div>
             <ul className="space-y-2 text-sm text-gray-400 text-left">
               <li>✓ 1 Active Bot</li>
               <li>✓ Basic Smart Feed</li>
@@ -95,8 +95,8 @@ const BusinessModelSlide = ({ slideNumber, totalSlides }) => {
             <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary px-4 py-1 rounded-full text-xs font-bold">
               POPULAR
             </div>
-            <h4 className="text-xl font-bold text-white mb-2">Pro</h4>
-            <div className="text-3xl font-bold text-primary mb-4">$49.99<span className="text-sm text-gray-400">/mo</span></div>
+            <h4 className="text-xl font-bold text-white mb-2">Basic</h4>
+            <div className="text-3xl font-bold text-primary mb-4">$9.99<span className="text-sm text-gray-400">/mo</span></div>
             <ul className="space-y-2 text-sm text-gray-300 text-left">
               <li>✓ 3 Bots management</li>
               <li>✓ Advanced AI Analysis</li>
@@ -106,8 +106,8 @@ const BusinessModelSlide = ({ slideNumber, totalSlides }) => {
           </div>
 
           <div className="bg-dark-light p-6 rounded-2xl border border-gray-800 text-center">
-            <h4 className="text-xl font-bold text-white mb-2">Enterprise</h4>
-            <div className="text-3xl font-bold text-secondary mb-4">Custom</div>
+            <h4 className="text-xl font-bold text-white mb-2">Pro</h4>
+            <div className="text-3xl font-bold text-secondary mb-4">$49</div>
             <ul className="space-y-2 text-sm text-gray-400 text-left">
               <li>✓ Unlimited bots creation</li>
               <li>✓ Unlimited marketplace slots</li>
