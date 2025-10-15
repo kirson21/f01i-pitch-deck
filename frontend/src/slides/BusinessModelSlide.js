@@ -84,10 +84,10 @@ const BusinessModelSlide = ({ slideNumber, totalSlides }) => {
             <h4 className="text-xl font-bold text-white mb-2">Starter</h4>
             <div className="text-3xl font-bold text-primary mb-4">$9.99<span className="text-sm text-gray-400">/mo</span></div>
             <ul className="space-y-2 text-sm text-gray-400 text-left">
-              <li>✓ 3 Active Bots</li>
+              <li>✓ 1 Active Bot</li>
               <li>✓ Basic Smart Feed</li>
-              <li>✓ Marketplace Access</li>
-              <li>✓ Email Support</li>
+              <li>✓ 1 Marketplace Access</li>
+              <li>✓ Ready-made bots from f01i.ai</li>
             </ul>
           </div>
 
@@ -98,10 +98,10 @@ const BusinessModelSlide = ({ slideNumber, totalSlides }) => {
             <h4 className="text-xl font-bold text-white mb-2">Pro</h4>
             <div className="text-3xl font-bold text-primary mb-4">$49.99<span className="text-sm text-gray-400">/mo</span></div>
             <ul className="space-y-2 text-sm text-gray-300 text-left">
-              <li>✓ Unlimited Bots</li>
+              <li>✓ 3 Bots management</li>
               <li>✓ Advanced AI Analysis</li>
-              <li>✓ Priority Execution</li>
-              <li>✓ 24/7 Support</li>
+              <li>✓ API access for copytrading integration</li>
+              <li>✓ up to 10 product slots in Marketplace</li>
             </ul>
           </div>
 
@@ -109,10 +109,10 @@ const BusinessModelSlide = ({ slideNumber, totalSlides }) => {
             <h4 className="text-xl font-bold text-white mb-2">Enterprise</h4>
             <div className="text-3xl font-bold text-secondary mb-4">Custom</div>
             <ul className="space-y-2 text-sm text-gray-400 text-left">
-              <li>✓ White-label Solution</li>
-              <li>✓ Custom Integration</li>
-              <li>✓ Dedicated Manager</li>
-              <li>✓ SLA Guarantee</li>
+              <li>✓ Unlimited bots creation</li>
+              <li>✓ Unlimited marketplace slots</li>
+              <li>✓ Lower comissions - 10%</li>
+              <li>✓ Advanced trading tools: TradingView,Coinglass</li>
             </ul>
           </div>
         </motion.div>
