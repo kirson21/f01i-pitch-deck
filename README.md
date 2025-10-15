@@ -93,11 +93,26 @@ Click the "Download PDF" button in the top-right corner to generate a high-quali
 - **Pre-Money Valuation**: $800K
 - **Post-Money Valuation**: $1M
 
+## Deployment
+
+### Quick Deploy to Vercel
+
+See [QUICK_DEPLOY.md](./QUICK_DEPLOY.md) for step-by-step instructions.
+
+**TL;DR:**
+1. Push to GitHub
+2. Connect to Vercel
+3. Deploy! 🚀
+
+Full deployment guide: [VERCEL_DEPLOY.md](./VERCEL_DEPLOY.md)
+
 ## Contact
 
 **Kirill Popolitov**  
 Founder, CEO & CTO  
-📧 kirson21@gmail.com  
+📧 kirillpopolitov@gmail.com  
+💬 Telegram: [@kirson21](https://t.me/kirson21)  
+📱 WhatsApp: [+381665830305](https://wa.me/381665830305)  
 🌐 [f01i.ai](https://f01i.ai)
 
 ## License
