@@ -82,7 +82,7 @@ const ProductSlide = ({ slideNumber, totalSlides }) => {
                 <div className="text-4xl">🌐</div>
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Multi-Exchange Support</h3>
-                  <p className="text-gray-400">Bybit live, Binance, OKX, and Crypto.com coming soon.</p>
+                  <p className="text-gray-400">Bybit, Binance, OKX, Crypto.com, MEXC, Coinbase integrated. TradingView & Coinglass coming soon.</p>
                 </div>
               </div>
             </div>
