@@ -31,7 +31,7 @@ const ProductSlide = ({ slideNumber, totalSlides }) => {
               <div className="flex items-start space-x-4">
                 <div className="text-4xl">🤖</div>
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2">AI Bot Constructor (GPT-5)</h3>
+                  <h3 className="text-xl font-bold text-white mb-2">AI Chat Constructor (Claude)</h3>
                   <p className="text-gray-400">Create sophisticated trading bots in minutes using natural language. No coding required.</p>
                 </div>
               </div>
