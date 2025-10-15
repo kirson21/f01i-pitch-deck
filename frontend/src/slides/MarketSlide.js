@@ -53,26 +53,6 @@ const MarketSlide = ({ slideNumber, totalSlides }) => {
     },
   };
 
-  const distributionData = {
-    labels: ['Institutional', 'Retail', 'Corporate'],
-    datasets: [
-      {
-        data: [45, 35, 20],
-        backgroundColor: [
-          'rgba(99, 102, 241, 0.8)',
-          'rgba(139, 92, 246, 0.8)',
-          'rgba(168, 85, 247, 0.8)',
-        ],
-        borderColor: [
-          'rgba(99, 102, 241, 1)',
-          'rgba(139, 92, 246, 1)',
-          'rgba(168, 85, 247, 1)',
-        ],
-        borderWidth: 2,
-      },
-    ],
-  };
-
   return (
     <div id="slide-4" className="w-full min-h-screen flex items-center justify-center bg-dark p-8 md:p-16">
       <div className="max-w-7xl w-full">
