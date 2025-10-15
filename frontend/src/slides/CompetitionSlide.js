@@ -12,8 +12,8 @@ const CompetitionSlide = ({ slideNumber, totalSlides }) => {
   const advantages = [
     {
       icon: '🧠',
-      title: 'GPT-5 Powered',
-      description: 'Only platform using latest GPT-5 for bot creation - significantly more intelligent than competitors'
+      title: 'AI Powered',
+      description: 'Only platform using AI chat builder for bot creation - significantly more intelligent than competitors'
     },
     {
       icon: '💡',
@@ -125,7 +125,7 @@ const CompetitionSlide = ({ slideNumber, totalSlides }) => {
         >
           <div className="inline-block px-8 py-6 bg-gradient-to-r from-primary/20 to-secondary/20 border-2 border-primary rounded-2xl backdrop-blur-sm">
             <p className="text-2xl font-bold text-white mb-2">
-              First Mover Advantage in GPT-5 Trading Bots
+              First Mover Advantage in Trading Bots AI chat builder
             </p>
             <p className="text-gray-300">
               Positioning as the most advanced and accessible AI trading platform
