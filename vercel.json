@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "name": "f01i-pitch-deck",
+  "buildCommand": "cd frontend && yarn install && yarn build",
+  "devCommand": "cd frontend && yarn start",
+  "installCommand": "cd frontend && yarn install",
+  "framework": null,
+  "outputDirectory": "frontend/build",
+  "routes": [
+    {
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
+    },
+    {
+      "src": "/(.*\\.(js|css|png|jpg|jpeg|gif|ico|svg|json|txt))",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
