@@ -5,8 +5,8 @@ const SolutionSlide = ({ slideNumber, totalSlides }) => {
   const features = [
     {
       icon: '🤖',
-      title: 'AI Bot Constructor',
-      description: 'Build trading bots in minutes with GPT-5 or customize every detail manually'
+      title: 'AI Chat Constructor',
+      description: 'Build trading bots in minutes with Claude AI or customize every detail manually'
     },
     {
       icon: '📊',
